@@ -1,2 +1,2 @@
 # Python-project1
-imaa make my own proj
+imaa make my own project 
