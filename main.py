@@ -1,9 +1,10 @@
 import random 
 target = random.randint(1,100)
+attempts = 5
 
-while True:
-    Userchoice= input("Guess the Number or quit\n")
-    if(Userchoice == "quit"):
+while attempts > 0 :
+    Userchoice= input("Guess the Number or type 'q' to quit\n")
+    if(Userchoice == "q"):
          print("QuIt!!?")
          break 
 
@@ -15,7 +16,13 @@ while True:
         print("Number too SMALL,try another")
     elif(Userchoice>target):
         print("Number too BIG,try another")
-   
+
+    attempts -=1
+    print(f"Attempts Remaining : {attempts}")
+    if attempts==0:
+        print(f"GAME OVER!! the correct number was {target}")
+
+        
 print("--GAMEOVER--\n--WANNA TRY AGAIN?")
 
 
