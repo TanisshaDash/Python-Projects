@@ -2,8 +2,8 @@ import random
 target = random.randint(1,100)
 
 while True:
-    Userchoice= input("GUESS THE NUMBER or QUIT(q)")
-    if(Userchoice == "q"):
+    Userchoice= input("Guess the Number or Quit\n")
+    if(Userchoice == "Quit"):
          print("QuIt!!?")
          break 
 
