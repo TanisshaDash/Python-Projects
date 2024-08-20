@@ -1,7 +1,7 @@
 import random
 import string 
 
-pass_len = 10
+pass_len = 12
 Charvalues = string.ascii_letters + string.digits + string.punctuation
 
 password =""
