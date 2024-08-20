@@ -1,5 +1,5 @@
 import random 
-target = random.randint(1,100)
+target = random.randint(1,50)
 attempts = 5
 
 while attempts > 0 :
@@ -13,9 +13,9 @@ while attempts > 0 :
         print("CORRECT GUESS!!!YAYY")
         break
     elif(Userchoice<target):
-        print("Number too SMALL,try another")
+        print("Number too SMALL,Guess Again")
     elif(Userchoice>target):
-        print("Number too BIG,try another")
+        print("Number too BIG,Guess Again")
 
     attempts -=1
     print(f"Attempts Remaining : {attempts}")
@@ -27,4 +27,4 @@ print("--GAMEOVER--\n--WANNA TRY AGAIN?")
 
 
 
-         
+        
